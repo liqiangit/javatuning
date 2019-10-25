@@ -14,23 +14,11 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
 
   <dependencies>
-    <!-- https://mvnrepository.com/artifact/org.netbeans.modules/org-netbeans-lib-profiler-common -->
-    <dependency>
-      <groupId>org.netbeans.modules</groupId>
-      <artifactId>org-netbeans-lib-profiler-common</artifactId>
-      <version>RELEASE90</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.netbeans.modules/org-netbeans-lib-profiler -->
-    <dependency>
-      <groupId>org.netbeans.modules</groupId>
-      <artifactId>org-netbeans-lib-profiler</artifactId>
-      <version>RELEASE90</version>
-    </dependency>
     <dependency>
     <groupId>org.amino</groupId>
     <artifactId>cbbs</artifactId>
